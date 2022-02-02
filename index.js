@@ -21,3 +21,29 @@ function destructivelyDeleteFromEmployeeByKey(employee, key) {
     employee[key]= undefined;
     return employee;
 }
+
+
+
+
+/*const employee = {
+    name: 'Sam',
+    streetAddress: '11 broadway',
+}
+
+
+function updateEmployeeWithKeyAndValue(employee, key, value) {
+     return object.assign({}, employee, {[key]:value});
+}
+
+
+function destructivelyUpdateEmployeeWithKeyAndValue() {
+
+}
+
+function deleteFromEmployeeByKey() {
+
+}
+
+function destructivelyDeleteFromEmployeeByKey() {
+
+}*/
